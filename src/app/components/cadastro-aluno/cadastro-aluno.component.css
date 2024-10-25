@@ -1,0 +1,72 @@
+h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+    font-size: 2em; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    color: #080808; 
+}
+
+form {
+    max-width: 400px; /* Diminuir a largura máxima para centralizar os inputs */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #901ffa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    color: #0a0a0a;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left; /* Alinhar à esquerda para uma melhor leitura */
+}
+
+input {
+    width: 90%; /* Ajuste para não ocupar 100% da largura, o que ajuda na centralização */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+input:focus {
+    border-color: #7a4dcc;
+    outline: none;
+    box-shadow: 0 0 8px rgba(137, 98, 231, 0.3);
+}
+
+button {
+    width: 90%; 
+    padding: 10px;
+    background-color: #15ad1a;
+    color: rgb(11, 11, 11);
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b9411;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 0.9em;
+        width: 100%; /* Para telas pequenas, os inputs voltam a ocupar 100% */
+    }
+}
